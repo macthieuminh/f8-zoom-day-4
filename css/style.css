@@ -3,7 +3,6 @@ html {
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 62.5%;
 }
-
 /* Main */
 .main {
     margin-top: 1.8em;
@@ -81,4 +80,31 @@ main .work-exp {
 }
 .edu p strong {
     font-weight: 700;
+}
+/* Menu */
+.menu-wrapper {
+    display: block;
+    padding: 0 30px;
+    color: #fff;
+    background: #3e5cca;
+}
+.menu-item {
+    display: inline-block;
+
+    min-width: 112px;
+    height: 60px;
+
+    text-align: center;
+}
+.menu-item:hover {
+    color: #000;
+    background-color: #fff;
+}
+.menu-item-link {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 2rem 1rem;
 }
