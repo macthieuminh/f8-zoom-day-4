@@ -29,7 +29,7 @@ html {
 /* CV */
 .container {
     height: 100vh;
-    /* max-width: 960px; */
+    max-width: 960px;
     padding: 2.5rem 5rem;
 
     font-size: 1.6rem;
