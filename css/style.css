@@ -212,3 +212,23 @@ main .work-exp {
     border-radius: 50%;
     cursor: pointer;
 }
+.btn-submit {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    min-width: 128px;
+    height: 48px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #ccc;
+    transition: all 0.25s;
+    border-radius: 7px;
+}
+.btn-submit:hover {
+    color: #000;
+    background-color: orange;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.btn-submit:active {
+    transform: scale(1.03);
+}
